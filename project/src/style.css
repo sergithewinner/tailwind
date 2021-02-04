@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-blue-700;
+  /* @apply bg-green-700; */
+}
+
+/* .btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-400;
+} */
+
+/* CUSTOM BUTTONS */
+.custom____btn {
+  @apply bg-blue-500 px-4 py-2 text-white font-bold rounded;
+}
+
+.custom____btn:hover {
+  @apply bg-blue-400;
+}
+
+/* ALERT COMPONENT*/
+.alert____component {
+  @apply bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative my-5;
+}
+
+.alert____component___item1 {
+  @apply font-bold;
+}
+
+.alert____component___item2 {
+  @apply block sm:inline;
+}
+
+/* CARDS COMPONENT*/
+.card____component {
+  @apply max-w-sm mx-auto flex p-6 bg-white rounded-lg shadow-xl;
+}
+
+.card____component___item1 {
+  @apply flex-shrink-0;
+}
+
+.card____component___item1__logo {
+  @apply h-12 w-12;
+}
+
+.card____component___item2 {
+  @apply ml-6 pt-1;
+}
+
+.card____component___item2__text1 {
+  @apply text-xl text-gray-900;
+}
+
+.card____component___item2__text2 {
+  @apply text-base text-gray-600;
+}
+
+/* CARD COLUMNS */
+.cardcol__class1 {
+  @apply container mt-5 mx-auto px-2;
+}
+.cardcol__class2 {
+  @apply md:flex;
+}
+.cardcol__class3 {
+  @apply flex-1 text-gray-700 text-center bg-gray-400 px-5 py-5 m-2 rounded;
+}
+.cardcol__class4 {
+  @apply lg:flex lg:items-center;
+}
+.cardcol__class5 {
+  @apply lg:flex-shrink-0;
+}
+.cardcol__class6 {
+  @apply rounded-lg lg:w-64;
+}
+.cardcol__class7 {
+  @apply mt-4 lg:mt-0 lg:ml-6;
+}
+.cardcol__class8 {
+  @apply uppercase tracking-wide text-sm text-indigo-600 font-bold;
+}
+.cardcol__class9 {
+  @apply block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline;
+}
+.cardcol__class10 {
+  @apply flex-1 text-gray-700 text-center bg-gray-400 px-5 py-5 m-2 rounded;
+}
+.cardcol__class11 {
+  @apply lg:flex lg:items-center;
+}
+.cardcol__class12 {
+  @apply lg:flex-shrink-0;
+}
+.cardcol__class13 {
+  @apply rounded-lg lg:w-64;
+}
+.cardcol__class14 {
+  @apply mt-4 lg:mt-0 lg:ml-6;
+}
+.cardcol__class15 {
+  @apply uppercase tracking-wide text-sm text-indigo-600 font-bold;
+}
+.cardcol__class16 {
+  @apply block mt-1 text-lg leading-tight font-semibold text-gray-900 hover:underline;
+}
+
+/* NAVBAR */
+.navbar__class1 {
+  @apply flex items-center justify-between flex-wrap bg-gray-800 p-6;
+}
+.navbar__class2 {
+  @apply flex items-center flex-shrink-0 text-white mr-6;
+}
+.navbar__class3 {
+  @apply font-bold text-xl;
+}
+.navbar__class4 {
+  @apply w-full block flex-grow sm:flex sm:items-center sm:w-auto;
+}
+.navbar__class5 {
+  @apply text-sm sm:flex-grow;
+}
+
+.navbar__class6 {
+  @apply block mt-4 sm:inline-block sm:mt-0  hover:text-white mr-4;
+}
+
+.navbar__class6:hover {
+  @apply text-white;
+}
+
+.navbar__class7 {
+  @apply block mt-4 sm:inline-block sm:mt-0  hover:text-white mr-4;
+}
+
+.navbar__class7:hover {
+  @apply text-white;
+}
+
+.navbar__class8 {
+  @apply block mt-4 sm:inline-block sm:mt-0  hover:text-white;
+}
+
+.navbar__class8:hover {
+  @apply text-white;
+}
+
+.navbar__class9 {
+  @apply inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-blue-500 hover:bg-white mt-4 md:mt-0;
+}
+
+.navbar__class9:hover {
+  @apply border-transparent text-blue-500 bg-white;
+}
+
+.navbar__class6,
+.navbar__class7,
+.navbar__class8 {
+  @apply text-teal2;
+}
