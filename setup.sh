@@ -3,6 +3,7 @@ sudo apt update && sudo apt upgrade -y
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt install jq -y 
+sudo apt install moreutils -y
 mkdir -p project/dist/ && mkdir project/src/
 cd project/dist/ && touch index.html style.css
 cd ../src/ && touch style.css
