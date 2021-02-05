@@ -11,7 +11,11 @@ cd ../ && npm init -y
 npm install tailwindcss@latest postcss@latest autoprefixer@latest && npx tailwindcss init
 jq '.scripts.test = "tailwind build src/style.css -o dist/style.css"' package.json|sponge package.json
 sed -i s/test/build:css/g package.json
+echo '@tailwind base; @tailwind components; @tailwind utilities;' >> src/style.css
 npm run build:css
+
+
+
 
 
 
