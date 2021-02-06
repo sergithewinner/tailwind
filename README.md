@@ -1,1 +1,1 @@
-# TailwindCSS Cheat Sheet
+# TailwindCSS Crash Course
