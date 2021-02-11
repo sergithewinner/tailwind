@@ -1,6 +1,8 @@
 # TailwindCSS Crash Course
 
-# RUN IN TERMINAL >> CTRL + ALT + T (Tested & Worked In Linux Mint Environment 20.04 LTS):
+# COMMANDS (Tested & Worked In Linux Mint Environment 20.04 LTS)
+
+# RUN IN TERMINAL >> CTRL + ALT + T >>
 
 # cd ~
 
