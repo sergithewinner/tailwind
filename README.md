@@ -8,4 +8,8 @@
 
 # sudo apt install git -y
 
+# git clone https://github.com/sergithewinner/tailwind.git
+
+# cd tailwind/
+
 # bash setup.sh && code .
