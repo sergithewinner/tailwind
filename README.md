@@ -10,12 +10,14 @@
 
 # sudo apt install git -y
 
-# mkdir -p work/
+# mkdir -p work/TailwindCSS-$(date +"%d-%m-%Y")
 
-# cd work/
+# cd work/TailwindCSS-$(date +"%d-%m-%Y")
 
 # git clone https://github.com/sergithewinner/tailwind.git
 
 # cd tailwind/
 
-# bash setup.sh && code .
+# code .
+
+# bash setup.sh
