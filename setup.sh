@@ -10,18 +10,12 @@ cd project/dist/ && touch index.html style.css
 cd ../src/ && touch style.css
 cd ../ && npm init -y
 npm install tailwindcss@latest postcss@latest autoprefixer@latest && npx tailwindcss init
-jq '.scripts.test = "tailwind build src/style.css -o dist/style.css"' package.json|sponge package.json
+jq '.scripts.test = "tailwind build src/style.css -o dist/style.css"' package.json | sponge package.json
 sed -i s/test/build:css/g package.json
 printf '@tailwind base;\n@tailwind components;\n@tailwind utilities;' >> src/style.css
 npm run build:css
 touch .gitignore && echo "node_modules/" >> .gitignore && git rm -r --cached node_modules ; git status
-
-
-
-
-
-
-
-
-
-
+npm install watch
+jq '.scripts += {watch: "watch npm run build:css ./src"}' package.json | sponge package.json
+sed -i s/"npm run build:css"/"'npm run build:css'"/g package.json
+npm run watch
