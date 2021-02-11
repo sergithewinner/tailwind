@@ -1,6 +1,6 @@
 # TailwindCSS Crash Course
 
-# RUN IN TERMINAL:
+# RUN IN TERMINAL (Tested & Worked In Linux Mint Environment 20.04 LTS):
 
 # cd ~
 
